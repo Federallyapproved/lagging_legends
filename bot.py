@@ -22,4 +22,4 @@ async def the_ref(ctx, game_name: str):
         await ctx.send("Sorry, there was an error retrieving the game rules.")
 
 # Run the bot with token
-bot.run(os.getenv('MTI4NzkyMDUxMDQxOTg2MTU2NQ.GWXNVv.CcqpAgF5zkAbDDkw_3m77o3r965N2ldiLVERyA'))
+bot.run(os.getenv('DISCORD_BOT_TOKEN'))
